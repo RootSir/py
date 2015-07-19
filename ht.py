@@ -7,4 +7,4 @@ opener = urllib2.build_opener(
                 #urllib2.ProxyHandler({'https': 'http://:@218.193.132.35:808'}))
 urllib2.install_opener(opener)
 print urllib2.urlopen('https://iforgot.apple.com/password/verify/appleid',data,10).read()
-print urllib2.urlopen('https://iforgot.apple.com/password/verify/appleid',data,10).read()
+ifeprint urllib2.urlopen('https://iforgot.apple.com/password/verify/appleid',data,10).read()
